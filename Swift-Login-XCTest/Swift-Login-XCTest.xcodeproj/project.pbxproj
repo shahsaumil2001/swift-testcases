@@ -1,0 +1,584 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXContainerItemProxy section */
+		8E4E022F2CF6DC2F0085F481 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8E4E02102CF6DC2E0085F481 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8E4E02172CF6DC2E0085F481;
+			remoteInfo = "Swift-XCTest";
+		};
+		8E4E02392CF6DC2F0085F481 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8E4E02102CF6DC2E0085F481 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8E4E02172CF6DC2E0085F481;
+			remoteInfo = "Swift-XCTest";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		8E4E02182CF6DC2E0085F481 /* Swift-Login-XCTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Swift-Login-XCTest.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8E4E022E2CF6DC2F0085F481 /* Swift-Login-XCTestTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Swift-Login-XCTestTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8E4E02382CF6DC2F0085F481 /* Swift-Login-XCTestUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Swift-Login-XCTestUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		8E4E02402CF6DC2F0085F481 /* Exceptions for "Swift-XCTest" folder in "Swift-Login-XCTest" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Resources/Info.plist,
+			);
+			target = 8E4E02172CF6DC2E0085F481 /* Swift-Login-XCTest */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		8E4E021A2CF6DC2E0085F481 /* Swift-XCTest */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				8E4E02402CF6DC2F0085F481 /* Exceptions for "Swift-XCTest" folder in "Swift-Login-XCTest" target */,
+			);
+			path = "Swift-XCTest";
+			sourceTree = "<group>";
+		};
+		8E4E02312CF6DC2F0085F481 /* Swift-XCTestTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "Swift-XCTestTests";
+			sourceTree = "<group>";
+		};
+		8E4E023B2CF6DC2F0085F481 /* Swift-XCTestUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "Swift-XCTestUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8E4E02152CF6DC2E0085F481 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8E4E022B2CF6DC2F0085F481 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8E4E02352CF6DC2F0085F481 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8E4E020F2CF6DC2E0085F481 = {
+			isa = PBXGroup;
+			children = (
+				8E4E021A2CF6DC2E0085F481 /* Swift-XCTest */,
+				8E4E02312CF6DC2F0085F481 /* Swift-XCTestTests */,
+				8E4E023B2CF6DC2F0085F481 /* Swift-XCTestUITests */,
+				8E4E02192CF6DC2E0085F481 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		8E4E02192CF6DC2E0085F481 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8E4E02182CF6DC2E0085F481 /* Swift-Login-XCTest.app */,
+				8E4E022E2CF6DC2F0085F481 /* Swift-Login-XCTestTests.xctest */,
+				8E4E02382CF6DC2F0085F481 /* Swift-Login-XCTestUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8E4E02172CF6DC2E0085F481 /* Swift-Login-XCTest */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8E4E02412CF6DC2F0085F481 /* Build configuration list for PBXNativeTarget "Swift-Login-XCTest" */;
+			buildPhases = (
+				8E4E02142CF6DC2E0085F481 /* Sources */,
+				8E4E02152CF6DC2E0085F481 /* Frameworks */,
+				8E4E02162CF6DC2E0085F481 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				8E4E021A2CF6DC2E0085F481 /* Swift-XCTest */,
+			);
+			name = "Swift-Login-XCTest";
+			packageProductDependencies = (
+			);
+			productName = "Swift-XCTest";
+			productReference = 8E4E02182CF6DC2E0085F481 /* Swift-Login-XCTest.app */;
+			productType = "com.apple.product-type.application";
+		};
+		8E4E022D2CF6DC2F0085F481 /* Swift-Login-XCTestTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8E4E02462CF6DC2F0085F481 /* Build configuration list for PBXNativeTarget "Swift-Login-XCTestTests" */;
+			buildPhases = (
+				8E4E022A2CF6DC2F0085F481 /* Sources */,
+				8E4E022B2CF6DC2F0085F481 /* Frameworks */,
+				8E4E022C2CF6DC2F0085F481 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8E4E02302CF6DC2F0085F481 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				8E4E02312CF6DC2F0085F481 /* Swift-XCTestTests */,
+			);
+			name = "Swift-Login-XCTestTests";
+			packageProductDependencies = (
+			);
+			productName = "Swift-XCTestTests";
+			productReference = 8E4E022E2CF6DC2F0085F481 /* Swift-Login-XCTestTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		8E4E02372CF6DC2F0085F481 /* Swift-Login-XCTestUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8E4E02492CF6DC2F0085F481 /* Build configuration list for PBXNativeTarget "Swift-Login-XCTestUITests" */;
+			buildPhases = (
+				8E4E02342CF6DC2F0085F481 /* Sources */,
+				8E4E02352CF6DC2F0085F481 /* Frameworks */,
+				8E4E02362CF6DC2F0085F481 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8E4E023A2CF6DC2F0085F481 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				8E4E023B2CF6DC2F0085F481 /* Swift-XCTestUITests */,
+			);
+			name = "Swift-Login-XCTestUITests";
+			packageProductDependencies = (
+			);
+			productName = "Swift-XCTestUITests";
+			productReference = 8E4E02382CF6DC2F0085F481 /* Swift-Login-XCTestUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8E4E02102CF6DC2E0085F481 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1600;
+				LastUpgradeCheck = 1600;
+				TargetAttributes = {
+					8E4E02172CF6DC2E0085F481 = {
+						CreatedOnToolsVersion = 16.0;
+					};
+					8E4E022D2CF6DC2F0085F481 = {
+						CreatedOnToolsVersion = 16.0;
+						LastSwiftMigration = 1600;
+						TestTargetID = 8E4E02172CF6DC2E0085F481;
+					};
+					8E4E02372CF6DC2F0085F481 = {
+						CreatedOnToolsVersion = 16.0;
+						TestTargetID = 8E4E02172CF6DC2E0085F481;
+					};
+				};
+			};
+			buildConfigurationList = 8E4E02132CF6DC2E0085F481 /* Build configuration list for PBXProject "Swift-Login-XCTest" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 8E4E020F2CF6DC2E0085F481;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 8E4E02192CF6DC2E0085F481 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8E4E02172CF6DC2E0085F481 /* Swift-Login-XCTest */,
+				8E4E022D2CF6DC2F0085F481 /* Swift-Login-XCTestTests */,
+				8E4E02372CF6DC2F0085F481 /* Swift-Login-XCTestUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8E4E02162CF6DC2E0085F481 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8E4E022C2CF6DC2F0085F481 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8E4E02362CF6DC2F0085F481 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8E4E02142CF6DC2E0085F481 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8E4E022A2CF6DC2F0085F481 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8E4E02342CF6DC2F0085F481 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		8E4E02302CF6DC2F0085F481 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8E4E02172CF6DC2E0085F481 /* Swift-Login-XCTest */;
+			targetProxy = 8E4E022F2CF6DC2F0085F481 /* PBXContainerItemProxy */;
+		};
+		8E4E023A2CF6DC2F0085F481 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8E4E02172CF6DC2E0085F481 /* Swift-Login-XCTest */;
+			targetProxy = 8E4E02392CF6DC2F0085F481 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		8E4E02422CF6DC2F0085F481 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Swift-XCTest/Resources/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Login;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "App.Swift-XCTest";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		8E4E02432CF6DC2F0085F481 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Swift-XCTest/Resources/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Login;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "App.Swift-XCTest";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		8E4E02442CF6DC2F0085F481 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		8E4E02452CF6DC2F0085F481 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8E4E02472CF6DC2F0085F481 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "App.Swift-XCTestTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_OBJC_BRIDGING_HEADER = "Swift-XCTestTests/Swift-XCTestTests-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Swift-Login-XCTest.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Swift-Login-XCTest";
+			};
+			name = Debug;
+		};
+		8E4E02482CF6DC2F0085F481 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "App.Swift-XCTestTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_OBJC_BRIDGING_HEADER = "Swift-XCTestTests/Swift-XCTestTests-Bridging-Header.h";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Swift-Login-XCTest.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Swift-Login-XCTest";
+			};
+			name = Release;
+		};
+		8E4E024A2CF6DC2F0085F481 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "App.Swift-XCTestUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Swift-XCTest";
+			};
+			name = Debug;
+		};
+		8E4E024B2CF6DC2F0085F481 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "App.Swift-XCTestUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Swift-XCTest";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8E4E02132CF6DC2E0085F481 /* Build configuration list for PBXProject "Swift-Login-XCTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8E4E02442CF6DC2F0085F481 /* Debug */,
+				8E4E02452CF6DC2F0085F481 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8E4E02412CF6DC2F0085F481 /* Build configuration list for PBXNativeTarget "Swift-Login-XCTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8E4E02422CF6DC2F0085F481 /* Debug */,
+				8E4E02432CF6DC2F0085F481 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8E4E02462CF6DC2F0085F481 /* Build configuration list for PBXNativeTarget "Swift-Login-XCTestTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8E4E02472CF6DC2F0085F481 /* Debug */,
+				8E4E02482CF6DC2F0085F481 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8E4E02492CF6DC2F0085F481 /* Build configuration list for PBXNativeTarget "Swift-Login-XCTestUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8E4E024A2CF6DC2F0085F481 /* Debug */,
+				8E4E024B2CF6DC2F0085F481 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8E4E02102CF6DC2E0085F481 /* Project object */;
+}
