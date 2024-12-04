@@ -1,6 +1,6 @@
 //
 //  StringConstants.swift
-//  Swift-Login-XCTest
+//  Swift-Login-Testing
 //
 //  Created by Saumil Shah on 27/11/24.
 //
