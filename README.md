@@ -1,5 +1,5 @@
 ## swift-testcases
-swift-testcases is an application designed to demonstrate test cases for a login page using XCTest and the Testing framework.
+swift-testcases is an two application designed to demonstrate test cases for a login page using XCTest and the Testing framework.
 
 1. Swift-Login-Testing: The name implies that it showcases test cases for a login page using the Testing framework. 
 
