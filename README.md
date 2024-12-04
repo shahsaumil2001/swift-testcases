@@ -37,7 +37,7 @@ Example of test case of **Sign in button attached with action**
 
 ## Comparison between XCTest & Testing framework
 
-<img width="630" alt="Screenshot 2024-12-04 at 7 26 15 PM" src="https://github.com/user-attachments/assets/9cad0b60-8d26-4831-bab0-8d81eb1d5daf">
+<img width="655" alt="Screenshot 2024-12-04 at 7 27 42 PM" src="https://github.com/user-attachments/assets/6cbd5025-d38a-4e24-9449-c50ec4f47cc4">
 
 ## 📫 Reach me for any questions/suggestion :point_down::
 [![LinkedInIcon](https://user-images.githubusercontent.com/56787966/180372874-fd85a898-5750-4b51-a39d-bf552e321eb4.png)](https://www.linkedin.com/in/saumil-shah-b954b9101/)
