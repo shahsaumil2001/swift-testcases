@@ -40,16 +40,16 @@ func testSubmit_WhenCreated_HasSignInButtonAndAction() throws {
 Example of test case of **Sign in button attached with action**
 ```
 @Test func submitWhenCreatedHasSignInButtonAndAction() throws {
-        // arrange
-        let signInButton: UIButton? = loginVC.signInButton
+    // arrange
+    let signInButton: UIButton? = loginVC.signInButton
         
-        // act
-        let signInButtonActions = signInButton?.actions(forTarget: loginVC, forControlEvent: .touchUpInside)
+    // act
+    let signInButtonActions = signInButton?.actions(forTarget: loginVC, forControlEvent: .touchUpInside)
         
-        // expect
-        #expect(signInButton?.titleLabel?.text == "Sign In", "Sign In button has Sign In Title")
-        #expect(signInButtonActions?.count == 1, "Signin Button Actions Count Should Be 1")
-        #expect(signInButtonActions?.first == "onSignInClick:", "There is no action with a name onSignInClick assigned to Signin button")
+    // expect
+    #expect(signInButton?.titleLabel?.text == "Sign In", "Sign In button has Sign In Title")
+    #expect(signInButtonActions?.count == 1, "Signin Button Actions Count Should Be 1")
+    #expect(signInButtonActions?.first == "onSignInClick:", "There is no action with a name onSignInClick assigned to Signin button")
 }
     
 ```
