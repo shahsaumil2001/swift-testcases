@@ -6,7 +6,7 @@
 //
 
 import XCTest
-@testable import Swift_XCTest
+@testable import Swift_Login_XCTest
 
 class LoginViewControllerTests: XCTestCase {
 

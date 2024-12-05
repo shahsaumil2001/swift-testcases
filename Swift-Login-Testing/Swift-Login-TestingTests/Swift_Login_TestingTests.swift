@@ -22,13 +22,17 @@ struct Swift_SwiftTestingTests {
     }
     
     @Test func loginWhenCreatedHasRequiredTextFieldsEmpty()  {
-        // assign
+        // arrange
         let emailTextField = loginVC?.emailTextField
         let passwordTextField = loginVC?.passwordTextField
+        
+        // act
+        let emailText = emailTextField?.text
+        let passwordText = passwordTextField?.text
 
         // expect
-        #expect(emailTextField?.text == "", "Email text field was not empty when the view controller initially loaded")
-        #expect(passwordTextField?.text == "", "Password text field was not empty when the view controller initially loaded")
+        #expect(emailText == "", "Email text field was not empty when the view controller initially loaded")
+        #expect(passwordText == "", "Password text field was not empty when the view controller initially loaded")
         
         // check placeholder
         #expect(emailTextField?.placeholder == "Enter Email", "Email text field has Enter Email placeholder")
@@ -36,8 +40,10 @@ struct Swift_SwiftTestingTests {
     }
     
     @Test func submitWhenCreatedHasSignInButtonAndAction() throws {
-        // assign
+        // arrange
         let signInButton: UIButton? = loginVC.signInButton
+        
+        // act
         let signInButtonActions = signInButton?.actions(forTarget: loginVC, forControlEvent: .touchUpInside)
         
         // expect
@@ -47,9 +53,11 @@ struct Swift_SwiftTestingTests {
     }
     
     @Test func loginValidationWhenAllInputsAreProvidedShouldReturnTrue() {
-        // assign
+        // arrange
         loginVC?.emailTextField.text = "example@gmail.com"
         loginVC?.passwordTextField.text = "Test@123"
+        
+        // act
         let isValidationSuccess = loginVC.isValidateFields()
 
         // expect
