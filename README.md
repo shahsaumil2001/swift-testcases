@@ -15,11 +15,11 @@ swift-testcases is an two application designed to demonstrate test cases for a l
 
 - Testcases for login page using XCTest and Testing framework.
 
-## Syntax of Testing Framework
+## Syntax of XCTest Framework
 
 Example of test case of **Sign in button attached with action**
 ```
- func testSubmit_WhenCreated_HasSignInButtonAndAction() throws {
+func testSubmit_WhenCreated_HasSignInButtonAndAction() throws {
 
     // Arrange
     let signinButton: UIButton = try XCTUnwrap(loginVC.signInButton, "Signin button does not have a referencing outlet")
@@ -31,6 +31,25 @@ Example of test case of **Sign in button attached with action**
     XCTAssertEqual(signinButton.titleLabel?.text, "Sign In", "Sign In button has Sign In Title")
     XCTAssertEqual(signinButtonActions.count, 1)
     XCTAssertEqual(signinButtonActions.first, "onSignInClick:", "There is no action with a name onSignInClick assigned to Signin button")
+}
+    
+```
+
+## Syntax of Swift Testing Framework
+
+Example of test case of **Sign in button attached with action**
+```
+@Test func submitWhenCreatedHasSignInButtonAndAction() throws {
+        // arrange
+        let signInButton: UIButton? = loginVC.signInButton
+        
+        // act
+        let signInButtonActions = signInButton?.actions(forTarget: loginVC, forControlEvent: .touchUpInside)
+        
+        // expect
+        #expect(signInButton?.titleLabel?.text == "Sign In", "Sign In button has Sign In Title")
+        #expect(signInButtonActions?.count == 1, "Signin Button Actions Count Should Be 1")
+        #expect(signInButtonActions?.first == "onSignInClick:", "There is no action with a name onSignInClick assigned to Signin button")
 }
     
 ```
